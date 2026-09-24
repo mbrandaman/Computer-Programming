@@ -74,6 +74,11 @@ h1{
     padding: 8px;
     width: 350px;
 }
+.subscribe-info {
+    background-color: #a81717;
+    padding: 8px;
+    width: 350px;
+}
 p strong {
     color: #ffffff;
     background-color: #000000;
