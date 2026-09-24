@@ -1,0 +1,83 @@
+#header {
+    color: white;
+    text-align: center;
+}
+#header h1 {
+    text-decoration: underline;
+}
+.nav-bar {
+    background-color: #aaaaaa;
+    padding: 20px;
+    border-radius: 7px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #322a2a;
+    padding: 4px;
+    font-size: 1.2rem;
+}
+.nav-links a:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    color: black; 
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+.info-content {
+    display: flex;
+    gap: 20px;
+}
+.info-content h2 {
+    text-decoration: underline;
+}
+.blip-info {
+    position: relative;
+    background-color: rgba(15, 12, 212, 0.455);
+    width: 175px;
+    padding: 8px;
+}
+.blip-info:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px;
+}
+.moving-text {
+    padding: 4px;
+    border: #322a2a solid 3px;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 100%;              /* starts directly underneath */
+    transform: translate(-50%, 12px);
+    opacity: 0;
+    white-space: nowrap;
+    transition:
+        transform 500ms cubic-bezier(.2, .8, .2, 1),
+        opacity 250ms ease;
+}
+.blip-info:hover .moving-text {
+    opacity: 1;
+    transform: translate(-50%, 70px);
+}
+.more-info {
+    background-color: rgb(23, 200, 14, 0.455);
+    padding: 8px;
+    width: 500px;
+}
+.console-info {
+    background-color: rgba(176, 19, 197, 0.455);
+    padding: 8px;
+    width: 350px;
+}
+p strong {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 0.9rem;
+}
