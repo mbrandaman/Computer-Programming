@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boll Studios Store</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        #store-button {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: white;
+        }
+    </style>
 </head>
-<body>
-    
+<body style="background-color: grey;">
+    <div id="header">
+        <h1 style="color: white; text-align: center;">Boll Studios Store</h1>
+        <nav class="nav-bar">
+            <div class="nav-links">
+                <a href="info.html">Info</a>
+                <a href="index.html">Home</a>
+                <a href="store.html" id="store-button">Store</a>
+                <a href="signin.html">Sign In</a>
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <div class="store-cards">
+        <div class="cards" style="background-color: aliceblue;">
+            <h2>Blip the Ball Adventures</h2>
+            <p>Watch Blip as he explores a vast open world and protects the world of
+                Geometra from Startram. This game has recieved multiple game awards
+                and has been a must-play for the Project 365<sup>&reg;</sup> console.
+            </p>
+            <ul class="info" style="background-color: lightblue;">
+                <li>Release: June 3, 2025</li>
+                <li>1 player</li>
+                <li>4 player(online)</li>
+                <li>File Size: 35.6gb<sup>*</sup></li>
+                <li>------$59.99------</li>
+            </ul>
+        </div>
+        <div class="cards" style="margin-left: 50px; background-color: lightblue;">
+            <h2>Project 365<sup>&reg;</sup> Console</h2>
+            <p>One of the most power consoles of all time! Play games at a crisp resolution
+                and high frames. Explore the vast game library as you have access to 1st party
+                games and 3rd party games. The Project 365<sup>&reg;</sup> console is for you!
+            </p>
+            <ul class="info" style="background-color: aliceblue;">
+                <li>Release: November 13, 2023</li>
+                <li>Storage: 1tb<sup>*</sup></li>
+                <li>Memory: 18gb</li>
+                <li>Up to 2160p at 60 HZ</li>
+                <li>Support for WI-FI 7</li>
+                <li>Immerse<sup>&reg;</sup>controller</li>
+                <li>------$599.99------</li>
+            </ul>
+        </div>
+        <div class="cards" style="background-color: aliceblue; margin-left: 50px;">
+            <h2>Boll+</h2>
+            <p>Get more immersed into the Boll Studios eccosystem by subscribing to this monthly
+                membership. Get access to hundreds of old games, play online with your friends, get
+                20% off any purchase on the Boll Studios Store, and get sweet perks weekly!
+            </p>
+            <ul class="info" style="background-color: lightblue;">
+                <li>-----<del>$15.00/month</del>-----</li>
+                <li style="color: red;">-----$13.50/month-----</li>
+            </ul>
+        </div>
+        <div class="cards" style="background-color: lightblue; margin-left: 40px;">
+            <h2>Crayla Chronicles<sup>&reg;</sup>4</h2>
+            <p>The launch title for the current generation, this game lets your explore the vast world
+                of Parold in a broken state. Join Pencila as he journies the land and finds out what is 
+                causing the chaos. This game has recieved Game of the Year and other countless awards!
+            </p>
+            <ul class="info" style="background-color: aliceblue;">
+                <li>Release: November 13, 2023</li>
+                <li>1 player</li>
+                <li>File Size: 112gb</li>
+                <li>Support for 120 HZ</li>
+                <li>------$59.99------</li>
+            </ul>
+        </div>
+    </div>
+    <p class="fact" style="font-size: 1.5rem; text-align: center; margin-top: 500px;">Fun Fact: The Project 365<sup>&reg;</sup>console has sold over 20 million units in its first year!</p>
+    <script src="script.js"></script>
 </body>
 </html>
