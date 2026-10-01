@@ -1,6 +1,3 @@
-let userMessage = document.getElementById("user-message");
-userMessage.innerHTML = "Welcome";
-
 function logIn() {
         let username = document.getElementById("username").value;
         let password = document.getElementById("password").value;

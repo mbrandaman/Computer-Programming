@@ -29,14 +29,23 @@ sup {
     color: black; 
     border-radius: 5px;
 }
-#user-message {
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 30px;
-    color: #322a2a;
-}
 h1{
     text-align: center;
+}
+.home {
+    justify-content: space-around;
+    display: flex;
+    color: #322a2a;
+}
+#boll-studios {
+    top: 430px;
+    left: 620px;
+    position: absolute; 
+    font-size: 3.5rem; 
+    color: #9966ff; 
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
 }
 .info-content {
     display: flex;
